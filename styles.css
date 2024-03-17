@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .control {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="range"] {
+    width: 100%;
+  }
+  
+  /* Separate boxes for fan and light */
+  .fan-control {
+    background-color: #154c9f; /* Light blue */
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .light-control {
+    background-color: #e2dc1d; /* Light yellow */
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Customize fan and light labels if needed */
+  .fan-label {
+    color: #2b9bf1; /* Dark text on light blue */
+  }
+  
+  .light-label {
+    color: #cba21c; /* Dark text on light yellow */
+  }

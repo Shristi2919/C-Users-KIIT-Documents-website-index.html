@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Home Control</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Smart Home Control</h1>
+  </header>
+  <main>
+    <section id="fanLights">
+      <h2>Fan Lights Control</h2>
+      <div class="control">
+        <label for="fanSpeed">Fan Speed:</label>
+        <select id="fanSpeed">
+          <option value="low">Low</option>
+          <option value="medium">Medium</option>
+          <option value="high">High</option>
+        </select>
+      </div>
+      <div class="control">
+        <label for="lightBrightness">Light Brightness:</label>
+        <input type="range" id="lightBrightness" min="0" max="100">
+      </div>
+      <div class="control">
+        <label for="fanSwitch">Fan Switch:</label>
+        <input type="checkbox" id="fanSwitch">
+      </div>
+    </section>
+    <!-- Other equipment controls can be added here -->
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
